@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hephaestus_description
+    relative_path: urdf/hephaestus_description.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/hephaestus_description.srdf
+  CONFIG:
+    author_name: Zhengxiao Han
+    author_email: hanzhengxiao@hzx.blue
+    generated_timestamp: 1705406609
