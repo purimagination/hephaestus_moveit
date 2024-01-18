@@ -24,7 +24,11 @@ sudo ip link set can0 type can bitrate 1000000
 sudo ifconfig can0 up
 ```
 Then try this MoveIt demo.</br>
+* If hardware is connected:
 ```sh
-# Make sure hardware is connected.
 roslaunch hephaestus_moveit hephaestus.launch
+```
+* else:
+```sh
+roslaunch hephaestus_moveit demo.launch
 ```
