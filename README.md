@@ -5,7 +5,7 @@ MoveIt Application for Hephaestus.
 * Ubuntu 20.04.
 * ROS Noetic.
 * [CANable](https://canable.io/) Devices.
-* Install [hephaestus_msgs](https://github.com/purimagination/hephaestus_msgs).
+* Install [hephaestus_description](https://github.com/purimagination/hephaestus_description).
 * Install [hephaestus_hardware](https://github.com/purimagination/hephaestus_hardware).
 
 ## 2. Install this package.
