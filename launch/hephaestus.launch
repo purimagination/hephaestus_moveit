@@ -1,5 +1,5 @@
 <launch>
-  <rosparam file="$(find hephaestus_hardware)/config/joint_limits.yaml" command="load"/>
+  <rosparam file="$(find hephaestus_moveit)/config/joint_limits.yaml" command="load"/>
 
   <!-- specify the planning pipeline -->
   <arg name="pipeline" default="ompl" />
