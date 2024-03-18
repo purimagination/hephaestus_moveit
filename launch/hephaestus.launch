@@ -51,7 +51,7 @@
 
 
   <node name="hephaestus_hardware_interface_node" pkg="hephaestus_hardware" type="hephaestus_hardware_interface_node" output="screen">
-      <param name="loop_frequency" value="50.0"/>
+      <param name="loop_frequency" value="200.0"/>
   </node>
   <node name="gripper_node" pkg="hephaestus_hardware" type="gripper_node" output="screen" />
   <node name="socketcan_node" pkg="socketcan_bridge" type="socketcan_bridge_node" />
