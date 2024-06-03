@@ -26,7 +26,11 @@ sudo ifconfig can0 up
 Then try this MoveIt demo.</br>
 * If hardware is connected:
 ```sh
-roslaunch hephaestus_moveit hephaestus.launch
+# Terminal 1
+roslaunch hephaestus_moveit hephaestus_moveit.launch
+
+# Terminal 2
+roslaunch hephaestus_moveit hephaestus_hardware.launch
 ```
 * else:
 ```sh
