@@ -4,6 +4,7 @@
   </node>
   <node name="gripper_node" pkg="hephaestus_hardware" type="gripper_node" output="screen" />
   <node name="socketcan_node" pkg="socketcan_bridge" type="socketcan_bridge_node" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
 
   <include file="$(dirname)/hephaestus_controllers.launch"/>
 </launch>
